@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.g-underline {
+  border: solid black 2px;
+  color: black;
+  width: 90%;
+}
