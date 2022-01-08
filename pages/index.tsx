@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
+import Navbar from "./components/Navbar";
 import Timestamp from "./components/Timestamp";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
+      <Navbar />
       <Timestamp />
     </div>
   );
