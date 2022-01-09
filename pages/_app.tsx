@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    import("bootstrap/dist/js/bootstrap.min.js");
+    import("../node_modules/bootstrap/dist/js/bootstrap.min.js");
   }, []);
   return <Component {...pageProps} />;
 }
